@@ -1,0 +1,9 @@
+FROM gemma:7b
+
+# set the temperature to 0.8 for balanced creativity
+PARAMETER temperature 0.8
+
+# set the system message
+SYSTEM """
+You are an expert assistant. Answer questions with detailed and accurate information.
+"""
