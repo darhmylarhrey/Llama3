@@ -93,12 +93,12 @@ Similar to Llama 3, you can customize the Gemma model:
 
 1. **Pull the Model**:
    ```bash
-   ollama pull gemma:7b
+   ollama pull gemma:2b
    ```
 
 2. **Create a Modelfile**:
    ```plaintext
-   FROM gemma:7b
+   FROM gemma:2b
 
    # set the temperature to 0.8 for balanced creativity
    PARAMETER temperature 0.8
