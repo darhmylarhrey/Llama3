@@ -67,7 +67,7 @@ To customize the Llama 3 model with specific parameters:
 
 3. **Create and Run the Custom Model**:
    ```bash
-   ollama create mario -f ./llama3_model
+   ollama create mario -f ./config/llama3_model.txt
    ollama run mario
    ```
 
@@ -111,7 +111,7 @@ Similar to Llama 3, you can customize the Gemma model:
 
 3. **Create and Run the Custom Model**:
    ```bash
-   ollama create expert-assistant -f ./gemma_model
+   ollama create expert-assistant -f ./config/gemma_model.txt
    ollama run expert-assistant
    ```
 
